@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.big-box {
+  width: 100%;
+}
+
+.nav-container {
+  max-width: 1200px;
+  height: 72px;
+  border: 3px solid;
+  margin: 0 auto 100px;
+}
+
+.sec2-container {
+  max-width: 1170px;
+  margin: 0 auto 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px 0;
+}
+
+.sec2-container div {
+  width: 370px;
+  height: 336px;
+  background-color: blue;
+  border-radius: 34px;
+}
